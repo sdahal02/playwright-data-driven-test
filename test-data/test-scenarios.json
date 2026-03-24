@@ -1,0 +1,94 @@
+{
+  "credentials": {
+    "username": "admin",
+    "password": "password123"
+  },
+  "scenarios": [
+    {
+      "testCaseId": "TC001",
+      "description": "Web Application - Verify \"Implement user authentication\" is in the \"To Do\" column",
+      "navigation": {
+        "projectName": "Web Application"
+      },
+      "expectedResults": {
+        "taskName": "Implement user authentication",
+        "columnName": "To Do",
+        "tags": [
+          "Feature",
+          "High Priority"
+        ]
+      }
+    },
+    {
+      "testCaseId": "TC002",
+      "description": "Web Application - Verify \"Fix navigation bug\" is in the \"To Do\" column",
+      "navigation": {
+        "projectName": "Web Application"
+      },
+      "expectedResults": {
+        "taskName": "Fix navigation bug",
+        "columnName": "To Do",
+        "tags": [
+          "Bug"
+        ]
+      }
+    },
+    {
+      "testCaseId": "TC003",
+      "description": "Web Application - Verify \"Design system updates\" is in the\"In Progress\" column",
+      "navigation": {
+        "projectName": "Web Application"
+      },
+      "expectedResults": {
+        "taskName": "Design system updates",
+        "columnName": "In Progress",
+        "tags": [
+          "Design"
+        ]
+      }
+    },
+    {
+      "testCaseId": "TC004",
+      "description": "Mobile Application - Verify \"Push notification system\"is in the \"To Do\" column",
+      "navigation": {
+        "projectName": "Mobile Application"
+      },
+      "expectedResults": {
+        "taskName": "Push notification system",
+        "columnName": "To Do",
+        "tags": [
+          "Feature"
+        ]
+      }
+    },
+    {
+      "testCaseId": "TC005",
+      "description": "Mobile Application - Verify \"Offline mode\" is in the \"In Progress\" column",
+      "navigation": {
+        "projectName": "Mobile Application"
+      },
+      "expectedResults": {
+        "taskName": "Offline mode",
+        "columnName": "In Progress",
+        "tags": [
+          "Feature",
+          "High Priority"
+        ]
+      }
+    },
+    {
+      "testCaseId": "TC006",
+      "description": "Mobile Application - Verify \"App icon design\" is in the \"Done\" column",
+      "navigation": {
+        "projectName": "Mobile Application"
+      },
+      "expectedResults": {
+        "taskName": "App icon design",
+        "columnName": "Done",
+        "tags": [
+          "Design"
+        ]
+      }
+    }
+  ]
+}

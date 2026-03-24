@@ -1,0 +1,25 @@
+{
+  "name": "playwright-test-automation",
+  "version": "1.0.0",
+  "description": "Data-driven E2E test automation suite for task management using Playwright, TypeScript, and the Page Object Model (POM).",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "automation",
+    "data-driven"
+  ],
+  "author": "sdahal",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
